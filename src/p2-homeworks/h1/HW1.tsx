@@ -20,7 +20,7 @@ function HW1() {
     return (
         <div>
             <hr/>
-            homeworks 1
+            homeworks 1:npm
 
             <Message
                 avatar={messageData.avatar}
