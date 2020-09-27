@@ -1,6 +1,6 @@
-import React from "react";
-import Affair from "./Affair";
-import {AffairType, FilterType} from "./HW2";
+import React from 'react';
+import Affair from './Affair';
+import {AffairType, FilterType} from './HW2';
 
 type AffairsPropsType = {
     data: Array<AffairType>
@@ -17,10 +17,10 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = () => {props.setFilter("All")};
-    const setHigh = () => {props.setFilter("High")};
-    const setMiddle = () => {props.setFilter("Middle")};
-    const setLow = () => {props.setFilter("Low")};
+    const setAll = () => {props.setFilter('All')};
+    const setHigh = () => {props.setFilter('High')};
+    const setMiddle = () => {props.setFilter('Middle')};
+    const setLow = () => {props.setFilter('Low')};
 
     return (
         <div>
