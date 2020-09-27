@@ -1,6 +1,6 @@
-import React from "react";
-import Message from "./Message";
-import AlternativeMessage from "./AlternativeMessage";
+import React from 'react';
+import Message from './Message';
+import AlternativeMessage from './AlternativeMessage';
 
 export type MessageDataPropsType = {
     avatar: string,
@@ -9,11 +9,11 @@ export type MessageDataPropsType = {
     time: string
 }
 
-const messageData : MessageDataPropsType = {
-    avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
-    name: "User_Name",
-    message: "some_text",
-    time: "22:00",
+const messageData: MessageDataPropsType = {
+    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
+    name: 'User_Name',
+    message: 'some_text',
+    time: '22:00',
 };
 
 function HW1() {
@@ -30,7 +30,7 @@ function HW1() {
             />
 
             <hr/>
-                <AlternativeMessage/>
+            <AlternativeMessage/>
             <hr/>
         </div>
     );

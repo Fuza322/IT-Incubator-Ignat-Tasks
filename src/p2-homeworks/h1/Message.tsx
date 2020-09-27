@@ -1,7 +1,6 @@
-import React from "react";
-import {MessageDataPropsType} from "./HW1";
+import React from 'react';
+import {MessageDataPropsType} from './HW1';
 import style from './Message.module.css'
-
 
 
 function Message(props: MessageDataPropsType) {
