@@ -48,10 +48,7 @@ function HW2() {
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
             />
-
-            <hr/>
             {/*<AlternativeAffairs/>*/}
-            <hr/>
         </div>
     );
 }
