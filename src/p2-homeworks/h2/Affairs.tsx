@@ -1,6 +1,8 @@
-import React from 'react';
-import Affair from './Affair';
-import {AffairType, FilterType} from './HW2';
+import React from "react"
+import {AffairType, FilterType} from "./HW2"
+import {Affair} from "./Affair"
+import {SuperButton} from "../h4/common/c2-SuperButton/SuperButton"
+import style from "./Affairs.module.css"
 
 type AffairsPropsType = {
     data: Array<AffairType>
@@ -8,7 +10,7 @@ type AffairsPropsType = {
     deleteAffairCallback: (_id: number) => void
 }
 
-function Affairs(props: AffairsPropsType) {
+export  function Affairs(props: AffairsPropsType) {
     const mappedAffairs = props.data.map((a: AffairType) => (
         <Affair
             key={a._id}
@@ -17,22 +19,51 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = () => {props.setFilter('All')};
-    const setHigh = () => {props.setFilter('High')};
-    const setMiddle = () => {props.setFilter('Middle')};
-    const setLow = () => {props.setFilter('Low')};
+    const setAll = () => {
+        props.setFilter('All')
+    }
+    const setHigh = () => {
+        props.setFilter('High')
+    }
+    const setMiddle = () => {
+        props.setFilter('Middle')
+    }
+    const setLow = () => {
+        props.setFilter('Low')
+    }
 
     return (
         <div>
 
             {mappedAffairs}
 
-            <button onClick={setAll}>All</button>
-            <button onClick={setHigh}>High</button>
-            <button onClick={setMiddle}>Middle</button>
-            <button onClick={setLow}>Low</button>
+            <SuperButton
+                onClick={setAll}
+                className={style.buttonSize}
+            >
+                All
+            </SuperButton>
+            <SuperButton
+                onClick={setHigh}
+                className={style.buttonSize}
+            >
+                High
+            </SuperButton>
+            <SuperButton
+                onClick={setHigh}
+                className={style.buttonSize}
+            >High
+            </SuperButton>
+            <SuperButton
+                onClick={setMiddle}
+                className={style.buttonSize}
+            >Middle
+            </SuperButton>
+            <SuperButton
+                onClick={setLow}
+                className={style.buttonSize}
+            >Low
+            </SuperButton>
         </div>
-    );
+    )
 }
-
-export default Affairs;

@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react"
 
-function AlternativeMessage() {
+export function AlternativeMessage() {
     return (
         <div>
 
         </div>
-    );
+    )
 }
-
-export default AlternativeMessage;

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {homeWorkReducer} from "./bll/homeWorkReducer";
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import {SuperButton} from "../h4/common/c2-SuperButton/SuperButton";
 
 const initialPeople = [
     {_id: 0, name: "Кот", age: 3},

@@ -1,12 +1,40 @@
 .superInput {
+    width: 280px;
+    height: 30px;
+    background: #F8F9FE;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #005CC8;
+    border: 3px solid #0075FF;
+    border-radius: 10px;
+    outline: 0;
+    transition: 0.2s;
+}
 
+.superInput:focus {
+    border: 3px solid #005CC8;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    width: 280px;
+    height: 30px;
+    background: #F8F9FE;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #005CC8;
+    border: 3px solid #E75C5C;
+    border-radius: 10px;
+    outline: 0;
+    transition: 0.2s;
+}
+
+.errorInput:focus {
+    border: 3px solid #D92121;
 }
 
 .error {
-    color: red;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #D92121;
+    margin: 4px;
 }

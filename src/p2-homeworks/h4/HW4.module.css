@@ -1,9 +1,14 @@
-.blue {
-    border-bottom: 5px solid blue;
-}
-
 .column {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.inputSize {
+    /*пофиксить смешивание классов*/
+}
+
+.buttonSize {
+    height: 30px;
+    width: 80px;
 }

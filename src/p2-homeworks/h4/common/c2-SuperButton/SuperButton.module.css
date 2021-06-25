@@ -1,7 +1,39 @@
 .default {
+    background: #0075FF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #F8F9FE;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
 
+.default:focus {
+    outline: none;
 }
 
 .red {
-    background: red;
+    background: #E75C5C;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #F8F9FE;
+    border: none;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.red:focus {
+    outline: none;
+}
+
+@media only screen and (min-width: 850px) and (min-height: 600px) {
+    .default:hover {
+        background-color: #005CC8;
+        cursor: pointer;
+    }
+
+    .red:hover {
+        background-color: #D92121;
+        cursor: pointer;
+    }
 }

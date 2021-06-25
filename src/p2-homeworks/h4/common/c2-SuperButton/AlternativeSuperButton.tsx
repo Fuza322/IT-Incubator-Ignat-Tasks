@@ -1,9 +1,7 @@
-import React from "react";
+import React from "react"
 
-function AlternativeSuperButton() {
+export function AlternativeSuperButton() {
     return (
         <button/>
-    );
+    )
 }
-
-export default AlternativeSuperButton;

@@ -1,8 +1,8 @@
-import React from 'react';
-import {MessageDataPropsType} from './HW1';
-import style from './Message.module.css'
+import React from "react"
+import {MessageDataPropsType} from "./HW1"
+import style from "./Message.module.css"
 
-function Message(props: MessageDataPropsType) {
+export function Message(props: MessageDataPropsType) {
     return (
         <div className={style.divMessageContainer}>
             <div className={style.divImageMessageSize}>
@@ -20,7 +20,5 @@ function Message(props: MessageDataPropsType) {
                 {props.time}
             </div>
         </div>
-    );
+    )
 }
-
-export default Message;

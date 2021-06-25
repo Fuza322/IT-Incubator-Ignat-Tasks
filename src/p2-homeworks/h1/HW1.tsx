@@ -1,5 +1,5 @@
-import React from 'react';
-import Message from './Message';
+import React from "react"
+import {Message} from "./Message"
 
 export type MessageDataPropsType = {
     avatar: string,
@@ -9,11 +9,11 @@ export type MessageDataPropsType = {
 }
 
 const messageData: MessageDataPropsType = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-    name: 'User_Name',
-    message: 'some_text',
-    time: '22:00',
-};
+    avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
+    name: "User_Name",
+    message: "some_text",
+    time: "22:00"
+}
 
 function HW1() {
     return (
@@ -28,7 +28,7 @@ function HW1() {
             />
             {/*<AlternativeMessage/>*/}
         </div>
-    );
+    )
 }
 
-export default HW1;
+export default HW1

@@ -1,7 +1,13 @@
-.checkbox {
+.labelStyle {
+    display: flex;
+    align-items: center;
+}
 
+.checkbox {
+    width: 16px;
+    height: 16px;
 }
 
 .spanClassName {
-
+    text-align: center;
 }

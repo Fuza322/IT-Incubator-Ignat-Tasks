@@ -1,11 +1,9 @@
-import React from "react";
+import React from "react"
 
-function AlternativeGreeting() {
+export function AlternativeGreeting() {
     return (
         <div>
 
         </div>
-    );
+    )
 }
-
-export default AlternativeGreeting;

@@ -1,6 +1,6 @@
-import React, {useState} from "react";
-import GreetingContainer from "./GreetingContainer";
-import {v1} from 'uuid';
+import React, {useState} from "react"
+import {v1} from "uuid"
+import {GreetingContainer} from "./GreetingContainer"
 
 export type UserType = {
     _id: string
@@ -9,12 +9,12 @@ export type UserType = {
 
 function HW3() {
     const [users, setUsers] = useState <Array<UserType>>([
-        // { _id: v1(), name: 'Ignat' }
-    ]);
+        // { _id: v1(), name: "Ignat" }
+    ])
 
     const addUserCallback = (name: string) => {
         const newUser = {_id: v1(), name: name}
-        setUsers([...users, newUser]);
+        setUsers([...users, newUser])
     }
 
     return (
@@ -27,7 +27,7 @@ function HW3() {
             />
             {/*<AlternativeGreeting/>*/}
         </div>
-    );
+    )
 }
 
-export default HW3;
+export default HW3

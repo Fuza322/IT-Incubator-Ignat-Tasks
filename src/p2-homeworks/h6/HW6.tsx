@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import SuperEditableSpan from "./common/c4-SuperEditableSpan/SuperEditableSpan";
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import {SuperButton} from "../h4/common/c2-SuperButton/SuperButton";
 import {restoreState, saveState} from "./localStorage/localStorage";
 
 function HW6() {

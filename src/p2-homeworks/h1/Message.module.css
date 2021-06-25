@@ -4,23 +4,22 @@
     justify-content: space-between;
     width: 300px;
     height: 80px;
+    background-color: #0075FF;
+    border: 2px solid #303030;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #333333;
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 10px;
     padding: 5px;
-    border: 3px solid #303030;
-    border-radius: 10px;
-    background-color: #179133;
-    box-shadow: 2px 2px 15px 1px black;
 }
 
 .divImageMessageSize {
-    overflow: hidden;
     width: 70px;
     height: 70px;
-
     border: 2px solid #303030;
     border-radius: 35px;
+    overflow: hidden;
 }
 
 .imageMessageSize {
@@ -33,11 +32,11 @@
 }
 
 .divMessageUserName {
-    font-family: FreeMono, monospace;
-    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
 }
 
 .divMessageText {
-    font-family: FreeMono, monospace;
-    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
 }

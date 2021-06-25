@@ -1,4 +1,14 @@
-.error
-{
+.error {
     border: 1px solid red;
+}
+
+.buttonSize {
+    height: 30px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+.errorMessage {
+    color: #D92121;
+    margin: 0 5px;
 }
