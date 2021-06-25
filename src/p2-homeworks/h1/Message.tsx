@@ -2,12 +2,11 @@ import React from 'react';
 import {MessageDataPropsType} from './HW1';
 import style from './Message.module.css'
 
-
 function Message(props: MessageDataPropsType) {
     return (
         <div className={style.divMessageContainer}>
             <div className={style.divImageMessageSize}>
-                <img className={style.imageMessageSize} src={props.avatar} alt="User's Photo"/>
+                <img className={style.imageMessageSize} src={props.avatar} alt="User's avatar"/>
             </div>
             <div className={style.divMessageInfo}>
                 <div className={style.divMessageUserName}>

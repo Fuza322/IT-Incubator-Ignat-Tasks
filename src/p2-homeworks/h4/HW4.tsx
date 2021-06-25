@@ -5,23 +5,29 @@ import SuperButton from "./common/c2-SuperButton/SuperButton";
 import SuperCheckbox from "./common/c3-SuperCheckbox/SuperCheckbox";
 
 function HW4() {
-    const [text, setText] = useState<string>("");
-    const error = text ? "" : "error";
+
+    const [text, setText] = useState<string>("")
+    const [checked, setChecked] = useState<boolean>(false)
+
+    /*let red: boolean
+    text ? red = false : red = true*/
+
+    const error = text ? "" : "error"
+
     const showAlert = () => {
         if (error) {
-            alert("введите текст...");
+            alert("введите текст...")
         } else {
             alert(text); // если нет ошибки показать текст
         }
     }
 
-    const [checked, setChecked] = useState<boolean>(false);
-    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked);
+    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
     return (
         <div>
             <hr/>
-            homeworks 4
+            homeworks 4:
 
             <div className={s.column}>
                 {/*should work (должно работать)*/}

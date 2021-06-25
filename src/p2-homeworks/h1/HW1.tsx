@@ -1,6 +1,5 @@
 import React from 'react';
 import Message from './Message';
-import AlternativeMessage from './AlternativeMessage';
 
 export type MessageDataPropsType = {
     avatar: string,

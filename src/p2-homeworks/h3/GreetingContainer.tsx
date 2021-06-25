@@ -19,7 +19,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     };
 
     const addUser = () => {
-        if (name == '') {
+        if (name === '') {
             setError(true)
         } else {
             setError(false)
