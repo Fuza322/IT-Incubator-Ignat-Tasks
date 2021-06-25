@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/IT-Incubator-Ignat-Tasks/static/css/main.381a6b4a.chunk.css",
-    "main.js": "/IT-Incubator-Ignat-Tasks/static/js/main.6c01fd36.chunk.js",
-    "main.js.map": "/IT-Incubator-Ignat-Tasks/static/js/main.6c01fd36.chunk.js.map",
-    "runtime-main.js": "/IT-Incubator-Ignat-Tasks/static/js/runtime-main.ff0d8f74.js",
-    "runtime-main.js.map": "/IT-Incubator-Ignat-Tasks/static/js/runtime-main.ff0d8f74.js.map",
-    "static/js/2.cc2da58b.chunk.js": "/IT-Incubator-Ignat-Tasks/static/js/2.cc2da58b.chunk.js",
-    "static/js/2.cc2da58b.chunk.js.map": "/IT-Incubator-Ignat-Tasks/static/js/2.cc2da58b.chunk.js.map",
-    "index.html": "/IT-Incubator-Ignat-Tasks/index.html",
-    "precache-manifest.1cdd5549a8be5329a8f2334227584431.js": "/IT-Incubator-Ignat-Tasks/precache-manifest.1cdd5549a8be5329a8f2334227584431.js",
-    "service-worker.js": "/IT-Incubator-Ignat-Tasks/service-worker.js",
-    "static/css/main.381a6b4a.chunk.css.map": "/IT-Incubator-Ignat-Tasks/static/css/main.381a6b4a.chunk.css.map",
-    "static/js/2.cc2da58b.chunk.js.LICENSE.txt": "/IT-Incubator-Ignat-Tasks/static/js/2.cc2da58b.chunk.js.LICENSE.txt"
+    "main.css": "/it-incubator-ignat-tasks/static/css/main.381a6b4a.chunk.css",
+    "main.js": "/it-incubator-ignat-tasks/static/js/main.892fb1ad.chunk.js",
+    "main.js.map": "/it-incubator-ignat-tasks/static/js/main.892fb1ad.chunk.js.map",
+    "runtime-main.js": "/it-incubator-ignat-tasks/static/js/runtime-main.61244aca.js",
+    "runtime-main.js.map": "/it-incubator-ignat-tasks/static/js/runtime-main.61244aca.js.map",
+    "static/js/2.cc2da58b.chunk.js": "/it-incubator-ignat-tasks/static/js/2.cc2da58b.chunk.js",
+    "static/js/2.cc2da58b.chunk.js.map": "/it-incubator-ignat-tasks/static/js/2.cc2da58b.chunk.js.map",
+    "index.html": "/it-incubator-ignat-tasks/index.html",
+    "precache-manifest.9adee006a66c34f1b4cb30927b3520e0.js": "/it-incubator-ignat-tasks/precache-manifest.9adee006a66c34f1b4cb30927b3520e0.js",
+    "service-worker.js": "/it-incubator-ignat-tasks/service-worker.js",
+    "static/css/main.381a6b4a.chunk.css.map": "/it-incubator-ignat-tasks/static/css/main.381a6b4a.chunk.css.map",
+    "static/js/2.cc2da58b.chunk.js.LICENSE.txt": "/it-incubator-ignat-tasks/static/js/2.cc2da58b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff0d8f74.js",
+    "static/js/runtime-main.61244aca.js",
     "static/js/2.cc2da58b.chunk.js",
     "static/css/main.381a6b4a.chunk.css",
-    "static/js/main.6c01fd36.chunk.js"
+    "static/js/main.892fb1ad.chunk.js"
   ]
 }
