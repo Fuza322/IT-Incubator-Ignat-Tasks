@@ -15,7 +15,7 @@ export const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers}
 ) => {
 
-    const errorMessage = error ? "Error!" : ""
+    const errorMessage = error ? "Error!!!" : ""
 
     return (
         <div>
