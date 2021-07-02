@@ -1,10 +1,8 @@
 .superInput {
-    width: 280px;
-    height: 30px;
     background: #F8F9FE;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
-    color: #005CC8;
+    color: #000000;
     border: 3px solid #0075FF;
     border-radius: 10px;
     outline: 0;
@@ -16,8 +14,6 @@
 }
 
 .errorInput {
-    width: 280px;
-    height: 30px;
     background: #F8F9FE;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;

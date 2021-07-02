@@ -23,7 +23,7 @@ export const Greeting: React.FC<GreetingPropsType> = (
                 value={name}
                 onChangeText={setNameCallback}
                 onEnter={addUser}
-                className={style.inputSize} // проверьте, рабоет ли смешивание классов
+                className={style.inputSize}
             />
             <SuperButton
                 onClick={addUser}

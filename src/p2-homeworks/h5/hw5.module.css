@@ -1,0 +1,52 @@
+.menuWrapper {
+    display: flex;
+    align-items: center;
+    background-color: #0075FF;
+    color: #F8F9FE;
+    padding: 15px;
+    box-shadow: 0 3px 5px #535354;
+}
+
+.burgerMenu {
+    cursor: pointer;
+    font-size: 40px;
+    color: #F8F9FE;
+    transition: all 0.5s;
+}
+
+.burgerMenu:hover {
+    color: #000000;
+}
+
+.containerMenuLinks {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 0;
+    margin: 0;
+}
+
+.activeMenu {
+    visibility: visible;
+    opacity: 1;
+    padding: 0 55px;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+
+.menuLinks {
+    margin-right: 10px;
+    color: #F8F9FE;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menuLinks:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.active {
+    color: #000000;
+    font-weight: bold;
+}

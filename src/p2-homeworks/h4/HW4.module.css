@@ -5,7 +5,8 @@
 }
 
 .inputSize {
-    /*пофиксить смешивание классов*/
+    height: 30px;
+    width: 300px;
 }
 
 .buttonSize {

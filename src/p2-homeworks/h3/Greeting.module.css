@@ -2,6 +2,11 @@
     border: 1px solid red;
 }
 
+.inputSize {
+    height: 30px;
+    width: 250px;
+}
+
 .buttonSize {
     height: 30px;
     width: 50px;
