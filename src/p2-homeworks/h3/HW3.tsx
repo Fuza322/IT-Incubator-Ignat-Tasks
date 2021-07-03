@@ -7,7 +7,7 @@ export type UserType = {
     name: string
 }
 
-function HW3() {
+export function HW3() {
     const [users, setUsers] = useState <Array<UserType>>([
         // { _id: v1(), name: "Ignat" }
     ])
@@ -29,5 +29,3 @@ function HW3() {
         </div>
     )
 }
-
-export default HW3

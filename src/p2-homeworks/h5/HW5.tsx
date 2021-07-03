@@ -2,7 +2,7 @@ import React from "react"
 import {Header} from "./Header"
 import {Routes} from "./Routes"
 
-function HW5() {
+export function HW5() {
     return (
         <div>
             <Header/>
@@ -10,5 +10,3 @@ function HW5() {
         </div>
     )
 }
-
-export default HW5

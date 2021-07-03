@@ -4,7 +4,7 @@ import {SuperButton} from "./common/c2-SuperButton/SuperButton"
 import {SuperCheckbox} from "./common/c3-SuperCheckbox/SuperCheckbox"
 import style from "./HW4.module.css"
 
-function HW4() {
+export function HW4() {
 
     const [text, setText] = useState<string>("")
     const [checked, setChecked] = useState<boolean>(false)
@@ -62,5 +62,3 @@ function HW4() {
         </div>
     )
 }
-
-export default HW4

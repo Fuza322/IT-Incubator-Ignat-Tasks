@@ -30,7 +30,7 @@ export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<Aff
     return affairs.filter(a => a._id !== _id)
 }
 
-function HW2() {
+export function HW2() {
 
     const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs)
     const [filter, setFilter] = useState<FilterType>("All")
@@ -51,5 +51,3 @@ function HW2() {
         </div>
     )
 }
-
-export default HW2

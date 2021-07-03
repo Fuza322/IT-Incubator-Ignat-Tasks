@@ -1,5 +1,5 @@
 import React from "react"
-import HW5 from "../../../p2-homeworks/h5/HW5"
+import {HW5} from "../../../p2-homeworks/h5/HW5"
 import style from "./App.module.css"
 import {HashRouter} from "react-router-dom"
 

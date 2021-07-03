@@ -15,7 +15,7 @@ const messageData: MessageDataPropsType = {
     time: "22:00"
 }
 
-function HW1() {
+export function HW1() {
     return (
         <div>
             <hr/>
@@ -30,5 +30,3 @@ function HW1() {
         </div>
     )
 }
-
-export default HW1
