@@ -11,18 +11,19 @@ export type AffairType = {
 export type FilterType = "All" | AffairPriorityType
 
 const defaultAffairs: Array<AffairType> = [
-    {_id: 1, name: "React", priority: "(high)"},
-    {_id: 2, name: "Games", priority: "(low)"},
-    {_id: 3, name: "Anime", priority: "(low)"},
-    {_id: 4, name: "Fronted", priority: "(high)"},
-    {_id: 5, name: "HTML", priority: "(middle)"}
+    {_id: 1, name: "React", priority: "High"},
+    {_id: 2, name: "anime", priority: "Low"},
+    {_id: 3, name: "games", priority: "Low"},
+    {_id: 4, name: "work", priority: "High"},
+    {_id: 5, name: "html & css", priority: "Middle"},
+    {_id: 6, name: "porn", priority: "Low"},
 ]
 
 export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): Array<AffairType> => {
     if (filter === "All") return affairs
-    else if (filter === "High") return affairs.filter(a => a.priority === "(high)")
-    else if (filter === "Low") return affairs.filter(a => a.priority === "(low)")
-    else if (filter === "Middle") return affairs.filter(a => a.priority === "(middle)")
+    else if (filter === "High") return affairs.filter(a => a.priority === "High")
+    else if (filter === "Low") return affairs.filter(a => a.priority === "Low")
+    else if (filter === "Middle") return affairs.filter(a => a.priority === "Middle")
     else return affairs
 }
 

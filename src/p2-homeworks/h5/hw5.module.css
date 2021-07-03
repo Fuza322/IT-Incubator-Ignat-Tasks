@@ -3,7 +3,7 @@
     align-items: center;
     background-color: #0075FF;
     color: #F8F9FE;
-    padding: 15px;
+    padding: 12px 14px;
     box-shadow: 0 3px 5px #535354;
 }
 
@@ -35,10 +35,11 @@
 }
 
 .menuLinks {
-    margin-right: 10px;
+    font-size: 18px;
     color: #F8F9FE;
     text-transform: uppercase;
     text-decoration: none;
+    margin-right: 16px;
 }
 
 .menuLinks:hover {

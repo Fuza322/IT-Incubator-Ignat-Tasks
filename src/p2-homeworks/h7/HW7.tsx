@@ -27,12 +27,9 @@ export function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperSelect/>*/}
             {/*<AlternativeSuperRadio/>*/}
-            <hr/>
         </div>
     )
 }

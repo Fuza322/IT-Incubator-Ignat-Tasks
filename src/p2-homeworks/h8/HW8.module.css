@@ -1,0 +1,9 @@
+.buttonContainer {
+    display: flex;
+}
+
+.buttonSize {
+    width: 80px;
+    height: 30px;
+    margin: 5px 2px;
+}

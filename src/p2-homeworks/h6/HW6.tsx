@@ -38,11 +38,8 @@ export function HW6() {
                 onClick={restore}
                 className={style.buttonSize}
             >restore</SuperButton>
-
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperEditableSpan/>*/}
-            <hr/>
         </div>
     )
 }
