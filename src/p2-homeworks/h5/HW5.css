@@ -1,56 +1,35 @@
 .title {
     text-align: center;
-    margin: 20px 0;
     font-weight: bold;
 }
-
 
 .wrapper {
     background-color: #95c2de;
 }
 
-.mainbox {
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #95c2de;
-    margin: auto;
-    height: 600px;
+    height: 85vh;
     width: 600px;
-    position: relative;
+    margin: auto;
 }
 
 .err {
     color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 11rem;
-    position: absolute;
-    left: 20%;
-    top: 8%;
-}
-
-.far {
-    position: absolute;
-    font-size: 8.5rem;
-    left: 42%;
-    top: 15%;
-    color: #ffffff;
-}
-
-.err2 {
-    color: #ffffff;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 11rem;
-    position: absolute;
-    left: 68%;
-    top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .msg {
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.6rem;
-    position: absolute;
-    left: 16%;
-    top: 45%;
-    width: 75%;
 }
 
 a {

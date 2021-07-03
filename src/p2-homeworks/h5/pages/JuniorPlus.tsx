@@ -1,6 +1,5 @@
 import React from "react"
-import "./../style.css"
-
+import "../HW5.css"
 
 export function JuniorPlus() {
     return (

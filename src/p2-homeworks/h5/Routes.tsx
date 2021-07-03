@@ -20,7 +20,8 @@ export function Routes() {
                 <Route path={PATH.PRE_JUNIOR} exact render={() => <PreJunior/>}/>
                 <Route path={PATH.JUNIOR} exact render={() => <Junior/>}/>
                 <Route path={PATH.JUNIOR_PLUS} exact render={() => <JuniorPlus/>}/>
-                <Route render={() => <Error404/>}/>
+                <Route path={"/404"} render={() => <Error404/>}/>
+                <Redirect from={"*"} to={"/404"}/>
             </Switch>
         </div>
     )
