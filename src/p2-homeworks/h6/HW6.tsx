@@ -6,11 +6,11 @@ import style from "./HW6.module.css"
 
 export function HW6() {
 
-    const [value, setValue] = useState<string>(String(localStorage.getItem("editable-span-value")))
+    const [value, setValue] = useState<string>(restoreState("editable-span-value", ""))
 
     const save = () => {
-        const saveValue = saveState<string>("editable-span-value", value)
-        setValue(saveValue)
+        /*const saveValue = */saveState<string>("editable-span-value", value)
+        // setValue(saveValue)
     }
 
     const restore = () => {

@@ -1,13 +1,11 @@
-import React from "react";
+import React from "react"
 
-function AlternativeClock() {
+export function AlternativeClock() {
 
 
     return (
         <div>
 
         </div>
-    );
+    )
 }
-
-export default AlternativeClock;
