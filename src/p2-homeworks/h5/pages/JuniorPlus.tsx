@@ -1,10 +1,11 @@
 import React from "react"
+import {HW12} from "../../h12/HW12"
 import "../HW5.css"
 
 export function JuniorPlus() {
     return (
         <div className="size">
-            <div className="title">Junior+ Page</div>
+            <HW12/>
         </div>
     )
 }
