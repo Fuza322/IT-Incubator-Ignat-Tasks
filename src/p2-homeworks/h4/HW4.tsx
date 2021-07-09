@@ -34,25 +34,28 @@ export function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    className={style.inputSize} // проверьте, рабоет ли смешивание классов
+                    className={style.inputSize}
                 />
                 <br/>
                 <SuperButton
-                    red={red} // пропсу с булевым значением не обязательно указывать true
+                    red={red}
                     onClick={showAlert}
                     className={style.buttonSize}
                 >
-                    delete {/*// название кнопки попадёт в children*/}
+                    delete
                 </SuperButton>
                 <br/>
                 <SuperCheckbox
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    Some text {/*// этот текст попадёт в children*/}
+                    Some text
                 </SuperCheckbox>
                 <br/>
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                <SuperCheckbox
+                    checked={checked}
+                    onChange={testOnChange}
+                />
             </div>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperInputText/>*/}
